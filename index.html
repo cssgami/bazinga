@@ -3,8 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bazinga App</title>
+	<style>
+		body{
+			width:600px;
+			margin:100px auto;
+		}
+
+		span{
+			display: block;
+			font-size: 16px;
+			padding: 5px;
+			line-height: 24px;
+			background: #1d1d1d;
+			color: #dddddd;
+			margin: 10px 0;
+
+		}
+
+		span.other{
+			font-style: italic;
+		}
+
+		span.code{
+			font-weight: 700;
+		}
+
+		span.note{
+			color: salmon;
+		}
+
+		a{
+			color: black;
+			text-decoration: none;
+		}
+
+		a:hover{
+			text-decoration: underline;
+			color: white;
+			background: black;
+		}
+	</style>
 </head>
 <body>
-	
+	<h1>Bazinga App</h1>
+	<p>It is a simple android application which says bazinga in the voice of Sheldon Cooper</p>
+	<span class="code">git clone git@github.com:cssgami/bazinga.git</span>
+	<span class="other">cd bazinga</span>
+	<span class="other">connect your android device to your pc or run on emmulator</span>
+	<span class="note">make sure you have android sdk added to your path</span>
+	<span class="code">adb install -r bin/bazinga-debug.apk</span>
+
+	<a id="fork" href="https://github.com/cssgami/bazinga">fork me on github</a>
+
 </body>
 </html>
