@@ -11,3 +11,4 @@ run
 
 >adb install -r bin/bazinga-debug.apk
 
+[Bazinga](http://cssgami.github.io/bazinga/)
